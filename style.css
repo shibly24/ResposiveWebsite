@@ -38,7 +38,9 @@ border-radius: 10px;
 }
     .title-2 h1{
         
-        font-size: 50px;
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 100px;
 
     }
     
@@ -129,30 +131,31 @@ line-height: 60px;
 }
 
 .images a{
-    margin-left: 110px;
-    margin-top: 400px;
+    margin-left: 80px;
+    background-color: rgba(252, 144, 21, 0.959);
+    border-radius: 10px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color: rgb(20, 18, 18);
-    width: 40px;
+    width: 70px;
     padding: 10px;
-    /* border: 3px solid red;
-    border-radius: 30px; */
-    /* background-image: linear-gradient(to right, red,yellow,green); */
+    
 }
 .button{
-    height: 20px;
-    box-shadow: -10px, -10px, 15px, rgba(36, 240, 255, 0.5);
-    border-radius: 20px;
-    top: 50%;
-    background-color: orangered;
-    border: 1px solid orange;
-    
+   margin-left: 50px;
+   background-color: orange;
+}
+button{
+    background-color: orange;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .button:hover{
-    transform: scale(1.3);
+    box-shadow: 0px 10px 15px rgba(247, 57, 10, 0.19);
 }
 .images{
     width: 50%;
@@ -160,8 +163,23 @@ line-height: 60px;
 .images img{
     width: 60%;
     margin-left: 200px;
+    border-top: 3px solid orangered;
+    border-radius: 50%;
 }
 
+.images h1{
+    margin-left: 70px;
+}
+.images p{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-bottom: 3px solid orangered;
+}
+
+li{
+    font-size: 20px;
+}
 section{
     display: flex;
 }
@@ -175,6 +193,7 @@ width: 80%;
 height: 100px;
 margin-left: 200px;
 margin-right: 200px;
+margin-top: 180px;
 justify-content: space-between;
 background-color: rgb(255, 255, 255);
 box-shadow: 0px 10px 15px rgba(0,0, 0, 0.19);
@@ -195,7 +214,7 @@ border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-margin-left: 120px;
+    margin-left: 100px;
 }
 .img-2{
     display: flex;
@@ -208,6 +227,7 @@ margin-left: 120px;
     justify-content: center;
     align-items: center;
     margin-left: 80px;
+    margin-bottom: 8px;
 }
 
 .img-4{
@@ -221,6 +241,7 @@ margin-left: 120px;
     justify-content: center;
     align-items: center;
     margin-left: 110px;
+    margin-top: 15px;
 
 }
 .img-6{
@@ -248,7 +269,7 @@ margin-left: 120px;
     
  }
 
- .third-section img{
+.third-section img{
 border-radius: 20px;
 
  }
@@ -256,7 +277,7 @@ border-radius: 20px;
     margin: 10px;
 }
 
- .collectionbar{
+.collectionbar{
     border: 2px solid red;
     border-radius: 20px;
  }
@@ -275,8 +296,8 @@ border-radius: 20px;
  }
 
  .products .collectionbar{
-     width: 23%;
-     min-width: 250px;
+     width: 25%;
+     min-width: 300px;
      padding: 10px 12px;
      border: 1px solid #663300;
      box-shadow: 20px 20px 30px rgba(14, 13, 13, 0.22);
@@ -304,3 +325,188 @@ border-radius: 20px;
      width: 100%;
      border-radius: 20px;
  }
+
+ .products .collectionbar h3{
+     font-size: 19px;
+     margin-left: 10PX;
+ }
+ .products .third-section h2{
+    font-size: 19px;
+    margin-left: 10PX;
+ }
+ .products .third-section .collectionbar{
+     text-align: start;
+ }
+ .products .third-section .collectionbar i{
+    color: yellow;
+ }
+ .products .third-section .collectionbar .p2{
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+ /* New Section */
+
+ #signup{
+     display: flex;
+     justify-content:first baseline;
+     margin-left: 220px;
+     margin-top: 40px;
+     background-color: rgba(206, 231, 255, 0.52);
+     width: auto;
+     height: auto;
+     border-radius: 30px;
+     box-shadow: 30px 30px 40px rgba(184, 184, 184, 0.52);
+     padding: 10px;
+ }
+ .header h1{
+     font-size: 40px;
+     margin-left: 30px;
+ }
+
+ /* SignUp */
+
+ .process{
+     margin: 20px;
+     padding: 20px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ .apps{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 10px 15px rgba(0,0, 0, 0.19);
+border-radius: 10px;
+ }
+ .app-images{
+    margin-left: 110px;
+    margin-top: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(20, 18, 18);
+    width: 40px;
+    padding: 10px;
+ }
+ .app-image img{
+     width: 50%;
+ }
+
+ .button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 12px;
+     border-radius: 20px;
+     background-color: orangered;
+     transition: 0.2s ease;
+ }
+ .button:hover{
+    box-shadow: 10px 10px 35px rgba(0,0, 0, 0.59);
+ }
+.fab{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 12px;
+}
+#header-e{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 3px solid orangered;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 20px 15px rgba(0,0, 0, 0.59);
+    border-radius: 20px;
+ }
+
+ #header-e img{
+     margin-top: 100px;
+     margin-left: 100px;
+     width: 60%;
+ }
+
+ .info-e{
+    width: 50%;
+ }
+ .detail-e h1{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+    line-height: 60px;
+    margin-left: -100px;
+ }
+
+ #header-e .detail-e p{
+    font-size: 20px;;
+    width: 60%;
+    margin-left: -100px;
+    border-left: 5px solid #b80a00;
+    border-radius: 30px;
+    padding: 10px;
+ }
+
+ .detail-e button{
+     display: flex;
+     padding: 10px;
+     background-color: orange;
+     border-radius: 10px;
+ }
+
+ .detail-e li{
+     margin-top: -4px;
+ }
+
+ footer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     border-radius: 5px;
+     height: 300px;
+     color: white;
+     text-align: center;
+ }
+
+ .s-icon{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ .fa-twitter{
+     margin-top: 20px;
+ }
+ .fa-facebook{
+     margin-top: 20px;
+ }
+ .fa-instagram{
+     margin-top: 20px;
+ }
+ body{
+    background-color: rgb(252, 252, 252);
+ }
+ 
+ .endline{
+     padding: 10px;
+     display: flex;
+     margin-left: -100px;
+     text-align: center;
+ }
+ .endline .btn{
+     margin-left: 70px;
+     background-color: greenyellow;
+     text-align: center;
+ }
+ .endline .btn1{
+     background-color: orangered;
+ }
+
+ @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(0, 151, 201);
+    }
+  }
