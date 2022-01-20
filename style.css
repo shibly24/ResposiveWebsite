@@ -209,53 +209,25 @@ border-radius: 10px;
     justify-content: center;
     padding: 0px 20px;
 }
-
-.img-1{
-    display: flex;
+.svgimg {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-}
-.img-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 60px;
-}
-.img-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 80px;
-    margin-bottom: 8px;
+    grid-column-gap: 50px;
+    margin-left: 50px;
 }
 
-.img-4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
+.svgimg .icons{
+    margin-left: 100%;
+    border-bottom: 3px solid rgb(188, 253, 199);
+    border-radius: 30px;  
 }
+
+
 .img-5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 110px;
-    margin-top: 15px;
+    margin-top: 13px;
+}
 
-}
-.img-6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 130px;
-}
-.img-7{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 150px;
-}
 
 /* CollectionBar*/
 
@@ -460,53 +432,54 @@ border-radius: 10px;
      margin-top: -4px;
  }
 
- footer{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: black;
-     border-radius: 5px;
-     height: 300px;
-     color: white;
-     text-align: center;
- }
 
- .s-icon{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     
- }
- .fa-twitter{
-     margin-top: 20px;
- }
- .fa-facebook{
-     margin-top: 20px;
- }
- .fa-instagram{
-     margin-top: 20px;
- }
- body{
-    background-color: rgb(252, 252, 252);
- }
- 
- .endline{
-     padding: 10px;
-     display: flex;
-     margin-left: -100px;
-     text-align: center;
- }
- .endline .btn{
-     margin-left: 70px;
-     background-color: greenyellow;
-     text-align: center;
- }
- .endline .btn1{
-     background-color: orangered;
- }
-
- @media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(0, 151, 201);
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 5px;
+        height: 300px;
+        color: white;
+        text-align: center;
     }
-  }
+   
+    
+
+ 
+    .s-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .fa-twitter{
+        margin-top: 20px;
+    }
+    .fa-facebook{
+        margin-top: 20px;
+    }
+    .fa-instagram{
+        margin-top: 20px;
+    }
+    body{
+       background-color: rgb(252, 252, 252);
+    }
+    
+    .endline{
+        padding: 10px;
+        display: flex;
+        margin-left: -100px;
+        text-align: center;
+    }
+    .endline .btn{
+        margin-left: 70px;
+        background-color: greenyellow;
+        text-align: center;
+    }
+    .endline .btn1{
+        background-color: orangered;
+    }
+ 
+
+ 
